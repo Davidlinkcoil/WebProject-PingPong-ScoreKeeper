@@ -1,0 +1,113 @@
+body{
+    /* border: solid 1px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    align-items: left ;
+    flex-direction: column;
+    /* border: solid 1px ; */
+    /* height: 500px;
+    width: 400px; */
+}
+
+.image-title{
+    border: solid 1px rgb(219, 215, 215);
+    border-bottom: solid 2px rgb(219, 215, 215);
+}
+
+.image-title img{
+    border: none;
+    max-width: 100%;
+    height: 250px;
+}
+.image-title p{
+    font-weight: 800;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 0.5em;
+    
+}
+
+.score-tab{
+    border: 1px solid rgb(219, 215, 215);
+}
+ .score-count{
+    margin-left: 1em;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+ }
+ .score-count h1{
+    margin-bottom:0 ;
+ }
+ .score-count p{
+    margin-top: 0;
+    /* font-weight: 200 ; */
+    color: rgb(157, 154, 154);
+ }
+ .score-count label{
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 10px;
+ }
+ .score-count select{
+    border-radius: 10px;
+    color: blue;
+ }
+
+ .buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button{
+    width: 124px;
+    height: 24px;
+    border-radius: 3px;
+    color: white;
+}
+
+#p1-green{
+    background-color: rgb(150, 239, 150);
+    /* color: white; */
+}
+#p2-blue{
+    background-color: rgb(87, 122, 238);
+}
+#reset-red{
+    background-color: rgb(225, 71, 71);
+}
+
+#p1-green:hover{
+    background-color: rgb(71, 232, 71);
+    /* color: white; */
+}
+#p2-blue:hover{
+    background-color: rgb(11, 64, 240);
+}
+#reset-red:hover{
+    background-color: red;
+} 
+
+#p1-green:active{
+    background-color: rgb(20, 23, 20);
+    /* color: white; */
+}
+#p2-blue:active{
+    background-color: rgb(20, 23, 20);
+}
+#reset-red:active{
+    background-color: rgb(20, 23, 20);
+} 
+#p1-green:disabled{
+    background-color: rgb(213, 218, 213);
+    /* color: white; */
+}
+#p2-blue:disabled{
+    background-color: rgb(213, 218, 213);
+}
