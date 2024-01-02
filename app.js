@@ -33,7 +33,7 @@ const p2Button = document.getElementById('p2-blue');
 const resetButton = document.getElementById('reset-red');
 const score = document.getElementById('score');
 const playTo = document.getElementById('up_to_score');
-p1Button.addEventListener('click', function () { updateScore("p1"); });
+p1Button.addEventListener('click', function () { updateScore("p1");});
 p2Button.addEventListener('click', function () { updateScore("p2"); });
 resetButton.addEventListener('click', () => { p1 = 0; p2 = 0;p1Button.disabled=false;p2Button.disabled=false; score.innerText = `${p1} to ${p2}` });
 playTo.addEventListener('change',(event)=>{playToScore=event.target.value;console.dir(event)});
